@@ -5,6 +5,7 @@ struct Employee  //Global structure
     int age; 
     double salary; 
 }; 
+
 int main()
 {
     struct Employee emp;    
@@ -20,6 +21,8 @@ int main()
 
     return 0;
 }
+
+
 
 int main1()
 {
@@ -38,3 +41,4 @@ int main1()
 
     return 0;
 }
+    
