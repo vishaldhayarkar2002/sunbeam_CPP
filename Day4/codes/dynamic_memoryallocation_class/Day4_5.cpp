@@ -19,9 +19,13 @@ class Complex
         cout<<"Real : "<<this->real<<endl;
         cout<<"Imag : "<<this->imag<<endl; 
     }
-    
+    ~ Complex( )
+    {   
+        cout<<"Complex( void ) "<<" "<<this<<endl; 
+    }
+
 }; 
-int main()
+int main5()
 {
     Complex *ptr = (Complex*)malloc(sizeof(Complex)); 
     free(ptr); 
@@ -53,7 +57,7 @@ int main2()
     return 0;
 }
 
-int main1()
+int main()
 {
     Complex c1; 
     Complex c2; 
