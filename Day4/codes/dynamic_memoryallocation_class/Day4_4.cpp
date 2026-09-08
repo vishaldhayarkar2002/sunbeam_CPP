@@ -20,7 +20,7 @@ class Student
 }; 
 int main()
 {
-    Student **arr = new Student*[2]; 
+    Student **arr = new Student*[2]; //IMP
     arr[0] = new Student("Rahul",1,1000.00);
     arr[1] = new Student("Sandeep",2,2000.00);
     for(int index = 0 ; index < 2 ; index++)
@@ -39,7 +39,7 @@ int main()
 
 int main3()
 {
-    Student *arr = new Student[2]; 
+    Student *arr = new Student[2]; //IMP
     arr[0] = Student("Rahul",1,1000.00);
     arr[1] = Student("Sandeep",2,2000.00);
     for(int index = 0 ; index < 2 ; index++)

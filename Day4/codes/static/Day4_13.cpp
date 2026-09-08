@@ -23,7 +23,7 @@ class Test
         cout<<"num3 : "<<Test :: num3<<endl; 
     }
 }; 
-int Test :: num3 = 500; // Global defination 
+int Test :: num3 = 500; // Global defination THIS LINE IS IMP AS IT GETS FORGOTTEN TO WRITE
 int main()
 {
     Test t1(10,20); 

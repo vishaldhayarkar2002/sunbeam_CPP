@@ -11,7 +11,7 @@
 int main( void )
 {
     void print( void); //local function declaration 
-    print( ); //function call 
+    print(); //function call 
     return 0;
 }
 void print( void )// function defination 

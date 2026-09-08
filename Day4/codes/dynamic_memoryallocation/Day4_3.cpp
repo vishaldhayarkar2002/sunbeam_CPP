@@ -38,11 +38,11 @@ int main1()
     delete ptr1;
     ptr1 = NULL;
 
-    int *ptr2 = new int(); // by default 0
+    int *ptr2 = new int(); // by default 0 IMP
     delete ptr2;
     ptr2 = NULL;
 
-    int *ptr3 = new int(10); // by default it contains 10
+    int *ptr3 = new int(10); // by default it contains 10 IMP
     delete ptr3;
     ptr3 = NULL;
     return 0;

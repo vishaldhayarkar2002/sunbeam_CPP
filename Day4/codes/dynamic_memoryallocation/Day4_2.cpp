@@ -15,3 +15,4 @@ int main()
     ptr = NULL; 
     return 0;
 }
+//  IMP FROM INTERVIEW POV

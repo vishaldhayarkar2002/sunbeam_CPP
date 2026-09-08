@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int arr[3] = {10,20,30}; 
-    int (&ref)[3] = arr; //reference to array 
+    int (&ref)[3] = arr; //reference to array IMP
     for(int index = 0 ; index < 3 ; index++)
         cout<<ref[index]; 
     return 0;
@@ -13,7 +13,7 @@ int main1()
 {
     int a = 10; 
     int *p = &a; 
-    int *&pp = p; 
+    int *&pp = p; //IMP
     //cout<<*p<<endl;
     //cout<<*pp<<endl; 
     cout<<&a<<endl; 
