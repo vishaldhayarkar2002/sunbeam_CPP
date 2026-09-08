@@ -5,21 +5,29 @@ struct Employee  //Global structure
     int age; 
     double salary; 
 }; 
+<<<<<<< HEAD
+
+=======
+int main1(void);
+>>>>>>> a0f96cc48604960366392d7b5663477457f10da6
 int main()
 {
-    struct Employee emp;    
-    printf("Name : "); 
-    scanf("%s",emp.name); 
-    printf("Age : "); 
-    scanf("%d",&emp.age); 
-    printf("Salary : "); 
-    scanf("%lf",&emp.salary); 
-    printf("Name : %s\n",emp.name);
-    printf("Age : %d\n",emp.age);
-    printf("Salary : %.2lf\n",emp.salary);
+    // struct Employee emp;    
+    // printf("Name : "); 
+    // scanf("%s",emp.name); 
+    // printf("Age : "); 
+    // scanf("%d",&emp.age); 
+    // printf("Salary : "); 
+    // scanf("%lf",&emp.salary); 
+    // printf("Name : %s\n",emp.name);
+    // printf("Age : %d\n",emp.age);
+    // printf("Salary : %.2lf\n",emp.salary);
+    main1();
 
     return 0;
 }
+
+
 
 int main1()
 {
@@ -38,3 +46,4 @@ int main1()
 
     return 0;
 }
+    
