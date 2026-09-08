@@ -31,7 +31,7 @@ int main()
 
 int main4()
 {
-    Complex *ptr = new Complex[2]{ Complex(10,20) , Complex(30,40) }; 
+    Complex *ptr = new Complex[2]{ Complex(10,20) , Complex(30,40) }; //IMP FOR SYNTAX
     delete[ ] ptr; 
     ptr = NULL; 
     return 0;
