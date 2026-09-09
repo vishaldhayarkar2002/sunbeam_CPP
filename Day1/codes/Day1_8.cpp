@@ -28,7 +28,7 @@ int main()
 {
     Employee emp;
     emp.acceptRecord(); //emp.acceptRecord(&emp);
-    // emp.salary = 0.0;
+    //emp.salary = 0.0;
     emp.printRecord(); //emp.printRecord(&emp);
     return 0;
 }
