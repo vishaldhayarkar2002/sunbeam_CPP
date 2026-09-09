@@ -26,7 +26,7 @@ class Complex
         cout<<"imag : "<<imag<<endl; 
     }
 }; 
-int main1()
+int main()
 {
     Complex c1; 
     Complex c2; 
@@ -47,10 +47,9 @@ int main2()
     return 0;
 }
 
-int main()
+int main1()
 {
     Complex c1;
-    // c1.acceptRecord();
     c1.printRecord( );  
     return 0;
 }

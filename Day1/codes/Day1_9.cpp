@@ -31,7 +31,7 @@ int main()
 {
     //int b; //local variable  
     Employee emp; // Object 
-    // class Employee emp; // Object 
+    //class Employee emp; // Object 
     //emp.acceptRecord(); //message passing emp.acceptRecord(&emp);
     emp.Employee::acceptRecord( );//message passing  
     //emp.salary = 0.0;
