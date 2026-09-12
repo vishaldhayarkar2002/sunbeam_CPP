@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+int main2()
 {
     int *ptr = new(nothrow)int;
     if(ptr!=NULL)
@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 
-int main2()
+int main()
 {
     try
     {
