@@ -23,7 +23,7 @@ class Derived : public Base
     public: 
     Derived( void ) : num3(0 )
     {   }
-    Derived(int num1 , int num2 , int num3) : Base(num1 , num2) 
+    Derived(int num1 , int num2 , int num3) : Base(num1 , num2) //IMP
     {
         this->num3 = num3; 
     }
