@@ -32,7 +32,7 @@ public:
     void setHrs(int hrs)
     {
         if (hrs < 0 || hrs > 24)
-            throw InvalidTimeException("hrs", hrs);
+            throw InvalidTimeException("hrs", hrs);//Mostly write exception handling inside the functions
         this->hrs = hrs;
     }
     void setMins(int mins)

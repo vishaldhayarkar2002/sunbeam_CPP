@@ -21,7 +21,7 @@ class B
     // friend void A :: multiply( );  
     // friend void A :: divide( ); 
      //If we want to access private and protected members of the class inside all of
-     //the member functions of another class then we should declare class friend
+     //the member functions of another class then we should declare class friend IMP
        friend class A; 
 }; 
 void A :: sum( )

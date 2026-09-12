@@ -6,7 +6,7 @@ using namespace std;
 class Base 
 {
     public: 
-    virtual ~Base( )
+    virtual ~Base( ) //IMP
     {   }
 }; 
 class Derived : public Base 
@@ -17,7 +17,7 @@ int main()
 {
     Base *ptrBase = NULL;
     cout<<typeid(ptrBase).name()<<endl;
-    //cout<<typeid(*ptrBase).name( )<<endl; //bad_typeid exception    
+    //cout<<typeid(*ptrBase).name( )<<endl; //bad_typeid exception IMP   
     return 0;
 }
 

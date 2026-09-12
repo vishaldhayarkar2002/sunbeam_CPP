@@ -26,7 +26,7 @@ void printRecord(int res)
 int divide(int num , int den) 
 {
     if(den == 0)
-      throw ArithmeticException("Divide by zero"); 
+      throw ArithmeticException("Divide by zero");  //IMP
     int res = num / den; 
     return res; 
 }

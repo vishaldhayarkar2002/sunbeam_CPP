@@ -21,7 +21,7 @@ int main()
     Complex c1(10,20); 
     c1.printRecord( ); //10 20 
     //Complex *ptrComplex = &c1; // OK 
-    int *itrComplex = reinterpret_cast<int*>(&c1);
+    int *itrComplex = reinterpret_cast<int*>(&c1); //   IMP
     *itrComplex = 100; 
     itrComplex++; 
     *itrComplex = 200; 

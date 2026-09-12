@@ -124,6 +124,7 @@ class Complex
 }; 
 int main()
 {
+    //IMP next 10 lines
     Book bk1; 
     const type_info& tiB1 = typeid(bk1); 
     //cout<<"Type : "<<tiB1.name( )<<endl; 

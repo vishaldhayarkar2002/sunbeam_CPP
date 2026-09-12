@@ -87,7 +87,7 @@ int menuList( void )
     return choice; 
 
 }
-int main(int argc, char const *argv[])
+int main()
 {
     int choice; 
     while((choice = ::menuList( ))!=0)

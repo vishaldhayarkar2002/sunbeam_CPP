@@ -16,6 +16,11 @@ class Base
         delete[] bptr; 
         bptr = NULL; 
     }
+// Due to early binding, when the object pointer of the Base class is deleted, which was pointing to the
+// object of the Derived class then, only the destructor of the base class is invoked
+// It does not invoke the destructor of the derived class, which leads to the problem of memory leak in
+// our program and hence can result in undefined behavior.
+// To correct this situation, the base class should be defined with a virtual destructor.
 }; 
 class Derived : public Base 
 {

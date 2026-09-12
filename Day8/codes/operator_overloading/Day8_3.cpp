@@ -85,7 +85,7 @@ class Complex
 int main()
 {
     Complex c1(10,20); 
-    Complex c2 = c1++; //c2 = c1.operator++(0); 
+    Complex c2 = c1++; //c2 = c1.operator++(0); (While postincrement 0 value is passed in the parameter)
     c1.printRecord( );  // 11 21 
     c2.printRecord( );  // 10 20  
 

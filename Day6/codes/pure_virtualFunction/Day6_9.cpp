@@ -6,7 +6,7 @@ class Shape
     protected: 
     float area;
     public: 
-    virtual void acceptRecord( void) = 0; //pure virtual function 
+    virtual void acceptRecord( void) = 0; //pure virtual function IMP
     virtual void calculateArea( void ) = 0; //pure virtual function 
     
     void printRecord( void)

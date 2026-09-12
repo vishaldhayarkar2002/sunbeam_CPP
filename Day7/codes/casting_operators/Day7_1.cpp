@@ -48,7 +48,7 @@ int main()
     ptrBase->setNum1(20);  
     //Derived *ptrDerived = (Derived*)ptrBase; // NOT OK   
     Derived *ptrDerived = dynamic_cast<Derived*>(ptrBase); // NOT OK   
-    if(ptrDerived!=NULL)
+    if(ptrDerived!=NULL)// IMP because dynamic cast returns NULL when failed
     {
         ptrDerived->setNum3(30); 
     }
@@ -75,7 +75,7 @@ int main6()
     ptrBase->setNum1(10); 
     ptrBase->setNum2(20); 
     //static_cast operator do not check whether type conversion is valid or invalid. It only checks inheritance 
-    //between type of source and destination at compile time.
+    //between type of source and destination at compile time. IMP
     Derived *ptrDerived = static_cast<Derived*>(ptrBase); // NOT OK
     delete ptrBase; 
     ptrBase = NULL; 

@@ -13,7 +13,7 @@ int main()
     }
     catch (bad_alloc ex)
     {
-        cout<<ex.what( )<<endl; 
+        cout<<ex.what( )<<endl; //IMP
     }
 
     return 0;

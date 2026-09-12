@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Menu-Driven code  with single pointer of product class 
+// Menu-Driven code with single pointer of product class of Product using single pointer of product 
 class Product
 {
 private:
