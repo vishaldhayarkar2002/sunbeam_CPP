@@ -17,7 +17,7 @@ class Complex
     }
     friend void operator<<(ostream &out , Complex &c1); 
 };
-void operator<<(ostream &out , Complex &c1)
+void operator<<(ostream &out , Complex &c1) // IMP
 {
     out<<c1.real<<endl; 
     out<<c1.imag<<endl; 
@@ -25,6 +25,6 @@ void operator<<(ostream &out , Complex &c1)
 int main()
 {
     Complex c1(10,20); 
-    cout<<c1; //operator<<(cout , c1); 
+    cout<<c1; //operator<<(cout , c1); IMP
     return 0;
 }

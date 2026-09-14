@@ -27,6 +27,6 @@ int main()
 {
     Complex c1(10,20);
     Complex c2(30,40); 
-    cout<<c1<<c2; //operator<<(operator<<(cout , c1) , c2); 
+    cout<<c1<<c2; //operator<<(operator<<(cout , c1) , c2); //imp
     return 0;
 }

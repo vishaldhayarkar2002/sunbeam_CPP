@@ -62,11 +62,11 @@ public:
 	{
 		this->ptr = ptr;
 	}
-	Array* operator->( )
+	Array* operator->( ) //THIS NEEDS TO BE overloaded
 	{
 		return this->ptr;
 	}
-    Array& operator*()
+    Array& operator*() //THIS NEEDS TO BE overloaded
 	{
 		return *(this->ptr);
 	}
@@ -78,7 +78,7 @@ public:
 //*(this->ptr) -> the Array object that ptr points to
 int main3( void )
 {
-	//auto_ptr<Array> ptr( new Array(3));
+	//auto_ptr<Array> ptr( new Array(3));// new syntax in cpp for smart pointer for getting directly smart pointer
 	//ptr->acceptRecord();
 	//ptr->printRecord();
 	return 0;

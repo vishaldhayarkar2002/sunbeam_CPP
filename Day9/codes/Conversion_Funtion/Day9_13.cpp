@@ -27,7 +27,8 @@ int main()
 {
     Complex c1(10,20); 
     int real = c1; 
-    //c1.operator int( );
+//     Conceptually  it becomes:
+// int real = c1.operator int();
     cout<<"Real : "<<real<<endl;  
     return 0;
 }

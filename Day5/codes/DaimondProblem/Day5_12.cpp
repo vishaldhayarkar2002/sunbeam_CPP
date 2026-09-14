@@ -112,7 +112,7 @@ int main()
     //d.printRecord( );  // D::printrRecord( ); 
     //d.B::printRecord( ); // B::printRecord( );  
     //d.C::printRecord( ); //C::printRecord( ); 
-    //d.A::printRecord( ); // NOT OK 
+    //d.A::printRecord( ); // NOT OK IMP
     return 0;
 }
 

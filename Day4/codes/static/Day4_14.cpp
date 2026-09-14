@@ -55,7 +55,7 @@ int main()
     t1.printRecord( ); // 10 20 500 
     Test t2(30,40); 
     t2.printRecord( ); // 30 40 500 
-    //Test::num3 = 1000; 
+    // Test::num3 = 1000; 
     Test::setNum3(1000); 
     t1.printRecord( );// 10 20 1000  
     t2.printRecord( );// 30 40 1000  

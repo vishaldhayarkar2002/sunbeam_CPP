@@ -24,6 +24,7 @@ class Complex
     friend bool operator!=(Complex c1 , Complex c2);
     friend Complex operator++(Complex &c1);  
     friend Complex operator++(Complex &c1 ,int value); 
+    //notice here there are two parameters needs to be sent in the friend fucntion but early compiler was providing by defualt this pointer
 };
 Complex operator+(Complex c1 , Complex c2)
 {

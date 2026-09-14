@@ -2,7 +2,7 @@
 using namespace std;
 int main2()
 {
-    int *ptr = new(nothrow)int;
+    int *ptr = new(nothrow)int; // Why here nothrow is used because if it fails then it will return NULL intead of throwing an exception.
     if(ptr!=NULL)
     {
         *ptr = 200; 

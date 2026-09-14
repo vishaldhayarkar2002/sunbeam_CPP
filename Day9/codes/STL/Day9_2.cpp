@@ -23,8 +23,8 @@ int main()
         itr++; 
     }
     //pop_front , pop_back(removing first and last element) 
-    l.pop_front( ); 
-    l.pop_back( );  
+    l.pop_front( ); //IMP
+    l.pop_back( );  //IMP
     itr = l.begin( ); 
     cout<<endl; 
     while(itr!=l.end( ))

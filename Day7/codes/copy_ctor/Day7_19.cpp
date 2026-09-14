@@ -23,7 +23,7 @@ class Array
     }
     //this = &a2; 
     //other = a1; 
-    Array(const Array &other)
+    Array(const Array &other) //deep copy
     {
         // Copy the required size from source object into destination object
         this->size = other.size; 
@@ -40,7 +40,7 @@ class Array
             cout<<"ele : "<<arr[index]<<endl; 
         }
     }
-    ~Array( )
+    ~Array( ) // destructor deleting resources allocated
     {
         if(this->arr!=NULL)
         {

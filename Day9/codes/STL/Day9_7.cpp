@@ -31,7 +31,7 @@ int main()
     cout<<*itr<<endl; 
     v1.push_back(30); 
     v1.push_back(30); 
-    int cnt = count(v1.begin( ) , v1.end( ) , 30); 
+    int cnt = count(v1.begin( ) , v1.end( ) , 30); //IMP
     cout<<cnt<<endl; 
     return 0;
 }

@@ -1,3 +1,4 @@
+#include<bits/stdc++.h>
 // we cannot declare main as static / const 
 // if we dont write main and compile then it will give linker error  
 // Day1_9.cpp
@@ -44,3 +45,25 @@
 
 //     Base *ptrBase = ptrDerived; //upcasting 
 //     //converting pointer of derived class into pointer of base class  
+
+// getline(ss, num, ' ')
+
+// means:
+
+// Read from ss until a space ' ' is encountered and store it in num.
+
+// getline(cin, s);
+
+// means:
+
+// Read from cin until newline.
+
+// void fun() throw();      // old C++
+// void fun() noexcept;     // modern C++
+//IT means This function promises not to throw an exception.
+
+//  vector<Course *>& getCourseTaken() //getCourseTaken is a function that returns a reference to vector<Course *>. //IMP
+//     //Give me the original course vector.
+//     {
+//         return this->course_taken;
+//     }

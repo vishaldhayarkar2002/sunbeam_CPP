@@ -1,4 +1,4 @@
-
+#include<typeinfo>
 #include <iostream>
 using namespace std;
 class Employee
@@ -30,6 +30,8 @@ public:
     {
         cout << "ID: " << id << endl;
         cout << "Salary: " << salary << endl;
+    }
+    ~Employee(){        
     }
 };
 // Virtual inheritance because we dont want members to be inherited multple times

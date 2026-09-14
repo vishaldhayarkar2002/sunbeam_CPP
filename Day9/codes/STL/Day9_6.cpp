@@ -21,7 +21,7 @@ int main()
     vector<int> :: iterator itr2 = v1.end( ); 
     while(itr2!=v1.begin( ))
     {
-        itr2--; 
+        itr2--; //IMP why -- first
         cout<<*itr2<<endl; 
     }
     cout<<"REV"<<endl; 
@@ -48,7 +48,8 @@ int main()
     }
     cout<<endl; 
     vector<int> :: const_iterator itr5 = v1.cbegin( );
-    while(itr5!=v1.end( ))
+    // auto itr = v1.cbegin(); IMP which is much easier.
+    while(itr5!=v1.cend( ))
     {
         cout<<*itr5<<endl; 
         itr5++; 

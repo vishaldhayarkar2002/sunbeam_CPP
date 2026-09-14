@@ -27,7 +27,7 @@ int main7()
 {
     //int &ref; // NOT OK 
     //int &ref = NULL; //NOT OK 
-    //int &ref = 10; // NOT OK 
+    //int &ref = 10; // NOT OK //IMP//
     return 0;
 }
 
@@ -77,7 +77,7 @@ int main4()
 } 
 int main3()
 {
-    //Reference is derived data type.
+    //Reference is derived data type. //IMP
     //It alias or another name given to the exisiting memory location / object.
     int num1 = 10; // referent 
     int &num2 = num1; // reference 

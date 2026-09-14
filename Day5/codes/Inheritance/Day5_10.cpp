@@ -52,7 +52,7 @@ public:
 //function on object of derived class then preference 
 //is given to the derived class member function. 
 //Here derived class member function hides implementation 
-//of inherited function. This process is called    shadowing. 
+//of inherited function. This process is called    shadowing. //IMP
 int main()
 {
     Employee e("Nilesh",31,1,1000.00);

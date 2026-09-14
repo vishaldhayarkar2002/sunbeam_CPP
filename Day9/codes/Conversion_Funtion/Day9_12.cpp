@@ -34,7 +34,7 @@ int main()
 {
     int number = 10; 
     Complex c1; 
-    c1 = number; 
+    c1 = number; // Assignmemt optr by defauolt provided
     //Complex(number)
     c1.printRecord( ); 
     return 0;
