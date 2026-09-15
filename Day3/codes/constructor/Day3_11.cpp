@@ -48,12 +48,12 @@ int main()
 {
     //Complex *ptr; // no ctor will get called on pointer 
     //Complex c1; 
-    //Complex &c2 = c1; // no ctor will get called on reference
+    //Complex &c2 = c1; // no ctor will get called on reference //IMP
     //Complex c3; // parameter-less ctor will get called 
     //Complex c4(10,20); // 2 parameterized ctor will get called 
-    //Complex c5 = 10; //Complex c5(10); // single value parameterized 
-    //Complex c6 = 10,20; 
-    //Complex c7 = (10,20); //right most value is considered 
+    //Complex c5 = 10; //Complex c5(10); // single value parameterized //imp
+    //Complex c6 = 10,20; // ❌ error
+    //Complex c7 = (10,20); //right most value is considered //IMP
     //c7.printRecord( );  
     //Complex c8( ); //function declaration 
     Complex (10,20);//Anonymous object  2 parameterized ctor will get called  

@@ -6,7 +6,7 @@ using namespace std;
     int real; 
     int imag; 
     public: 
-    Complex ( void ) = delete; // C++ 11  
+    Complex ( void ) = delete; // C++ 11  (IMP) we cannot create  obj without passing valeu to parameterized ctor
     Complex(int real , int imag) //double value parameterized ctor 
     {
         cout<<"Complex(int value)"<<endl;  
